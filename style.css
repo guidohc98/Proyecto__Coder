@@ -51,6 +51,24 @@ footer div img{
 	height: 60px;
 	padding: 10px;
 }
+.black{
+	color: black;
+	text-decoration: none;
+	text-transform: none;
+}
+a:hover{
+	text-decoration: none;
+	color: black;
+}
+.h4{
+	font-size: 1.9rem;
+}
+.black1{
+	font-family: 'Oswald', sans-serif
+}
+.card{
+	background-color: #e4ffa9ed;
+}
 /*Estilo del menú*/
 .menu{
 	font-size: 2.5rem;
