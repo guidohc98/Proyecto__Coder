@@ -18,7 +18,6 @@ nav ul{
 body{
 	font-family: 'Amatic SC', cursive;
 	font-size: 24px;
-	background: ;
 }
 ul li{
 	display: inline-block;
@@ -51,7 +50,30 @@ footer div img{
 	height: 60px;
 	padding: 10px;
 }
+.paddingLeft{
+	padding-left: 10rem;
+}
 /*Estilo del menú*/
+#textito{
+	position: relative;
+}
+.card-img{
+	width: 19rem;
+	height: 21rem;
+}
+.marginLeft{
+	margin-left: 1rem;
+}
+.letracard{
+	font-family: 'Oswald', sans-serif;
+	font-size: 3rem;
+	padding-top: 8rem;
+	padding-left: 5.5rem;
+	letter-spacing: 0.2rem;
+}
+#textito2{
+	position: absolute;
+}
 .menu{
 	font-size: 2.5rem;
 }
