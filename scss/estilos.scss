@@ -1,0 +1,15 @@
+/*Variables*/
+$font-principal: 'Amatic SC', cursive;
+$font-texto: 'Oswald', sans-serif; 
+$altura: 150rem;
+$backgroundMenu:#e6ee9c;
+$letraFooter: black;
+$backgroundSectionLila:#f6efcc;
+$backgroundFooter:#e0e0e0;
+
+/*------*/
+@import "semantico";
+@import "menu";
+@import "parteindex";
+@import "container1y2";
+@import "footer";

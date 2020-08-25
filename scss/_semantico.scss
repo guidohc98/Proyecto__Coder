@@ -1,0 +1,45 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.loguitoPaltaHeader{
+	width: 6rem;
+	position: absolute;
+	margin-left: 2.2rem;
+	height: 6rem;
+}
+body{
+	font-family: $font-principal;
+	font-size: 24px;
+}
+ul li{
+	display: inline-block;
+	letter-spacing: 2px;
+}
+footer{
+	background-color:$backgroundFooter;
+	width: 100%;
+	color: $letraFooter;
+	text-align: center;
+	word-spacing: 20px;
+	font-size: 30px;
+	padding: 5px;
+}
+header{
+	background: $backgroundMenu;
+	width: 100%;
+	position: fixed;
+	height: 6.2rem;
+	z-index: 999;
+}
+section{
+	background: $backgroundSectionLila;
+	width: 100%;
+	height: $altura;
+}
+footer div img{
+	width: 60px;
+	height: 60px;
+	padding: 10px;
+}
