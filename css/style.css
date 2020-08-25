@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*Variables*/
 /*------*/
 * {
@@ -175,3 +176,36 @@ footer div img {
 .footer__title--ciudad {
   font-family: "Amatic SC", cursive;
   font-size: 1.5rem; }
+
+/*Botón enviar*/
+#hoverBtn:hover {
+  background: black;
+  color: white;
+  transition: all 0.15s ease-in-out; }
+
+.btn {
+  background: #ffc107; }
+
+.col-sm-10__padLeft {
+  padding-left: 18rem; }
+
+/*Formulario cambios*/
+.letraForm {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2rem;
+  color: white; }
+
+/*Fondo del forms con opacidad*/
+.fondoImagen {
+  background-image: url(../img/faq1.jpg);
+  padding-top: 18rem;
+  position: relative; }
+
+#fondo:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.2); }
