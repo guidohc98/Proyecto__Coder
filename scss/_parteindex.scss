@@ -34,9 +34,11 @@
 	margin-left: 0.6rem;
 	margin-right: 2rem;
 }
-.container-fluid{
+.container-fluid__color{
+	background:$backgroundCremita;
+}
+.container-fluid__reglas{
 	margin: 0;
-	background: #F0E573;
 	width: 100%;
 	height: $altura/3;
 }
