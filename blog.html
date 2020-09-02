@@ -13,6 +13,7 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 <!--Link de CSS-->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
 	<header>
@@ -44,8 +45,92 @@
 		</nav>
 	</header>
 	<section class="bloque1">
-	<div class="container-fluid container-fluid__color container-fluid__reglas">
+	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2500">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active" style="height: 100vh;">
+      <img class="d-block w-100" src="img/carru1.jpg" alt="First slide">
+      <div class="carousel-caption d-none d-md-block overlay__carousel">
+    <h2 class="fontOswald">Ordenate. Planificá. Pensá cada comida.</h2>
+    <p class="fontOswald">Vas a lograr una alimentación más y sana y generar más consciencia sobre lo que comés!</p>
+  </div>
+    </div>
+    <div class="carousel-item" style="height: 100vh;">
+      <img class="d-block w-100" src="img/carru2.jpg" alt="Second slide">
+      <div class="carousel-caption d-none d-md-block overlay__carousel">
+    <h2 class="fontOswald">Hacé actividad física. Mantené tu cuerpo en movimiento.</h2>
+    <p class="fontOswald">Ayuda a mantenerte alerta y de buen ánimo. Permite descansar mejor. Mejora el funcionamiento de nuestros músculos.</p>
+  </div>
+    </div>
+    <div class="carousel-item" style="height: 100vh;">
+      <img class="d-block w-100" src="img/carru4.jpg" alt="Third slide">
+      <div class="carousel-caption d-none d-md-block overlay__carousel">
+    <h2 class="fontOswald">Dedicá tiempo a cocinar con los más chicxs.</h2>
+    <p class="fontOswald">Aprendan. Diviertanse. Jueguen. Es la mejor forma de enseñarles a comer rico y saludable.</p>
+  </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid containerfluid__banner">
+<h2 class="Centradito containerfluid__banner--letra fontOswald">MÁS tips para hacer tu vida MÁS saludable</h2>
+</div>
+<div class="container-fluid container-fluid__reglas">
+		<div class="row row__padding row__width">
+			<div class="col-md-4">
+				<img class="img__size img__cards" src="img/blog1.jpg" alt="">
+			</div>				
+			<div class="col-md-8">
+				<h2 class="ws">Sanitización de verduras</h2>
+				<p class="p__letra">sum dolor, sit amet consectetur adipisicing, elit. Cupiditate veniam nulla eaque nemo, mollitia ipsa, rem quis sit itaque similique esse doloribus. Impedit quisquam, magni facere voluptates exercitationem asperiores maxime.<span class="dots">...</span><span class="more">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sunt aut explicabo error doloremque aliquam sint dolores, illo, aperiam, dolorum a ex? Hic provident beatae perspiciatis, recusandae dolore fuga voluptates.</span></p>
+				<div class="btn btn__none btn-primary btn__Vermas--hover btn__Primary--hover fontOswald myBtn" onclick="myFunction()">Ver más</div>
+			</div>
+			<div class="col-md-4 marginTop">
+				<img class="img__size img__cards" src="img/blog2.jpg" alt="">
+			</div>
+			<div class="col-md-8 marginTop">
+				<h2 class="ws">Mitos del ayuno</h2>
+				<p class="p__letra">Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Cupiditate veniam nulla eaque nemo, mollitia ipsa, rem quis sit itaque similique esse doloribus. Impedit quisquam, magni facere voluptates exercitationem asperiores maxime.<span class="dots">...</span><span class="more">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sunt aut explicabo error doloremque aliquam sint dolores, illo, aperiam, dolorum a ex? Hic provident beatae perspiciatis, recusandae dolore fuga voluptates.</span></p>
+				<div class="btn btn__none btn-primary btn__Vermas--hover btn__Primary--hover fontOswald" onclick="myFunction()" class="myBtn">Ver más</div>
+			</div> 
+			<div class="col-md-4 marginTop">
+				<img class="img__size img__cards" src="img/blog3.jpg" alt="">
+			</div>
+			<div class="col-md-8 marginTop">
+				<h2 class="ws">Mitos del ayuno</h2>
+				<p class="p__letra">Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Cupiditate veniam nulla eaque nemo, mollitia ipsa, rem quis sit itaque similique esse doloribus. Impedit quisquam, magni facere voluptates exercitationem asperiores maxime.<span class="dots">...</span><span class="more">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sunt aut explicabo error doloremque aliquam sint dolores, illo, aperiam, dolorum a ex? Hic provident beatae perspiciatis, recusandae dolore fuga voluptates.</span></p>
+				<div class="btn btn__none btn-primary btn__Vermas--hover btn__Primary--hover fontOswald" onclick="myFunction()" class="myBtn">Ver más</div>
+			</div> 
+			<div class="col-md-4 marginTop">
+				<img class="img__size img__cards" src="img/blog4.jpg" alt="">
+			</div>
+			<div class="col-md-8 marginTop">
+				<h2 class="ws">Mitos del ayuno</h2>
+				<p class="p__letra">Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Cupiditate veniam nulla eaque nemo, mollitia ipsa, rem quis sit itaque similique esse doloribus. Impedit quisquam, magni facere voluptates exercitationem asperiores maxime.<span class="dots">...</span><span class="more">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sunt aut explicabo error doloremque aliquam sint dolores, illo, aperiam, dolorum a ex? Hic provident beatae perspiciatis, recusandae dolore fuga voluptates.</span></p>
+				<div class="btn btn__none btn-primary btn__Vermas--hover btn__Primary--hover fontOswald" onclick="myFunction()" class="myBtn4">Ver más</div>
+			</div> 
+			<div class="col-md-4 marginTop">
+				<img class="img__size img__cards" src="img/blog5.jpg" alt="">
+			</div>
+			<div class="col-md-8 marginTop">
+				<h2 class="ws">Mitos del ayuno</h2>
+				<p class="p__letra">Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Cupiditate veniam nulla eaque nemo, mollitia ipsa, rem quis sit itaque similique esse doloribus. Impedit quisquam, magni facere voluptates exercitationem asperiores maxime.<span class="dots">...</span><span class="more">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sunt aut explicabo error doloremque aliquam sint dolores, illo, aperiam, dolorum a ex? Hic provident beatae perspiciatis, recusandae dolore fuga voluptates.</span></p>
+				<div class="btn btn__none btn-primary btn__Vermas--hover btn__Primary--hover fontOswald" onclick="myFunction()" class="myBtn">Ver más</div>
+			</div> 
+		</div>
 	</div>
+<!--Form
+<div class="container-fluid" style="margin-top: 40rem;">
+	<div class="row">
+		<div class="col-md-12">
+			<img class="img__size2" src="img/faq1.jpg" alt="">
+		</div>
+	</div>
+</div>
+-->
 	</section>
 <!--Redes sociales-->
 	<footer id="foter">
@@ -82,5 +167,22 @@
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	<script>
+		function myFunction() {
+
+  var dots = document.getElementsByClassName('dots')[0];
+  var moreText = document.getElementsByClassName('more')[0];
+  var btnText = document.getElementsByClassName('myBtn')[0];
+	  	if (dots.style.display === 'none') {
+	    dots.style.display = "inline";
+	    btnText.innerHTML = "Ver más";
+	    moreText.style.display = "none";
+	  } else {
+	    dots.style.display = "none";
+	    btnText.innerHTML = "Leé la nota!";
+	    moreText.style.display = "inline";
+  		}	
+}
+	</script>
 </body>
 </html>
