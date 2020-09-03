@@ -16,7 +16,7 @@
 	margin-top: 5rem;
 }
 .ws{
-	letter-spacing: 0.4rem;
+	letter-spacing: 0.2rem;
 }
 .more{
 	display: none;
@@ -39,7 +39,7 @@
 }
 .containerfluid__banner{
 	margin: 0; 
-	background: #E0B853; 
+	background: #DBB985; 
 	height: 8rem;
 }
 .img__cards{
@@ -49,15 +49,23 @@
 .containerfluid__banner--letra{
 	color: white;
 	padding: 2rem;
-	letter-spacing: 0.5rem;
+	padding-left: 0;
+	letter-spacing: 0.2rem;
 }
 .containerfluid__display{
 	display: inline;
 }
-.img__gif{
-	width: 10rem;
-	height: 6rem;
+.img__limon1{
+	width: 5rem;
+	height: 2rem;
+	margin-right: 4.5rem;
 }
+.img__limon2{
+	width: 5rem;
+	height: 2rem;
+	margin-left: 4rem;
+}
+
 .p__letra{
 	font-family: $font-texto;
 	font-size: 1.2rem;

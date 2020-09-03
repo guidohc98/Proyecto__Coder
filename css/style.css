@@ -54,12 +54,17 @@ footer div img {
   border-bottom: solid #dce775; }
 
 .menu__a--fontsize {
-  font-size: 2.5rem; }
+  font-size: 2rem; }
 
 .menu__achicar {
   padding-top: 1.5rem;
-  margin-left: 19rem;
-  word-spacing: 3rem; }
+  margin-left: 14rem; }
+
+.wordspace {
+  margin-left: 5rem; }
+
+.wordspace1 {
+  word-spacing: 1rem; }
 
 .bloque1__col-md-1--textalign {
   text-align: center; }
@@ -226,6 +231,19 @@ footer div img {
   right: 0;
   background-color: rgba(0, 0, 0, 0.2); }
 
+.os {
+  font-family: 'Open Sans', sans-serif; }
+
+.img__palta1 {
+  width: 4rem;
+  height: 3rem;
+  margin-right: 4.5rem; }
+
+.img__palta2 {
+  width: 4rem;
+  height: 3rem;
+  margin-left: 4rem; }
+
 .img__size {
   width: 18rem;
   height: 11rem; }
@@ -244,7 +262,7 @@ footer div img {
   margin-top: 5rem; }
 
 .ws {
-  letter-spacing: 0.4rem; }
+  letter-spacing: 0.2rem; }
 
 .more {
   display: none; }
@@ -267,7 +285,7 @@ footer div img {
 
 .containerfluid__banner {
   margin: 0;
-  background: #E0B853;
+  background: #DBB985;
   height: 8rem; }
 
 .img__cards {
@@ -277,14 +295,21 @@ footer div img {
 .containerfluid__banner--letra {
   color: white;
   padding: 2rem;
-  letter-spacing: 0.5rem; }
+  padding-left: 0;
+  letter-spacing: 0.2rem; }
 
 .containerfluid__display {
   display: inline; }
 
-.img__gif {
-  width: 10rem;
-  height: 6rem; }
+.img__limon1 {
+  width: 5rem;
+  height: 2rem;
+  margin-right: 4.5rem; }
+
+.img__limon2 {
+  width: 5rem;
+  height: 2rem;
+  margin-left: 4rem; }
 
 .p__letra {
   font-family: "Oswald", sans-serif;
