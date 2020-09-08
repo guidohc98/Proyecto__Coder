@@ -70,7 +70,7 @@ footer div img {
   text-align: center; }
 
 .bloque1__col-md-1--margin {
-  margin-top: 12rem; }
+  margin-top: 10rem; }
 
 .bloque1__col-md-1--img {
   width: 20rem;
@@ -167,6 +167,34 @@ footer div img {
 .marginLeft {
   margin-left: 1rem; }
 
+.paddingLeft {
+  padding-left: 12rem; }
+
+.card-body {
+  background: #e0e0e0; }
+
+.banner__habitos {
+  height: 12rem;
+  margin-top: 5rem;
+  padding: 2rem;
+  font-family: "Oswald", sans-serif; }
+
+.img__cita1 {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 14rem; }
+
+.img__cita2 {
+  width: 3rem;
+  height: 3rem;
+  margin-left: 14rem; }
+
+.z {
+  font-family: "Amatic SC", cursive; }
+
+.block {
+  display: block; }
+
 /*Container 2 y 3 parte recetas*/
 .container-fluid__receta2--color {
   background: #F3CE84;
@@ -187,12 +215,12 @@ footer div img {
   font-family: "Oswald", sans-serif; }
 
 .footer__lista--font {
-  font-size: 1rem;
+  font-size: 1.05rem;
   font-weight: 700; }
 
 .footer__logo {
-  width: 7rem;
-  height: 7rem; }
+  width: 9rem;
+  height: 9rem; }
 
 .footer__title--ciudad {
   font-family: "Amatic SC", cursive;
@@ -315,3 +343,8 @@ footer div img {
   font-family: "Oswald", sans-serif;
   font-size: 1.2rem;
   color: grey; }
+
+.faq {
+  text-decoration: none !important;
+  color: black !important;
+  text-transform: none !important; }
