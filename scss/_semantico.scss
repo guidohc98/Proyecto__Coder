@@ -4,14 +4,15 @@
 	box-sizing: border-box;
 }
 .loguitoPaltaHeader{
-	width: 6rem;
+	width: 8rem;
 	position: absolute;
-	margin-left: 2.2rem;
+	margin-left: 1rem;
 	height: 6rem;
 }
 body{
 	font-family: $font-principal;
 	font-size: 24px;
+	color: $colorLetravioletita;
 }
 ul li{
 	display: inline-block;
@@ -30,7 +31,7 @@ header{
 	background: $backgroundMenu;
 	width: 100%;
 	position: fixed;
-	height: 6.2rem;
+	height: 6rem;
 	z-index: 999;
 }
 section{
@@ -42,4 +43,19 @@ footer div img{
 	width: 60px;
 	height: 60px;
 	padding: 10px;
+}
+.bloque1{
+	height: 125rem;
+}
+.bloque2{
+	height: 132rem;
+}
+.bloque3{
+	height: 135rem;
+}
+.bloque4{
+	height: 107rem;
+}
+.bloque5{
+	height: 150rem;
 }

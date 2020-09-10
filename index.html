@@ -16,36 +16,49 @@
 </head>
 <body>
 	<header>
-		<nav>
-<!--Logos del menú-->
-			<a href="index.html" title=""><img class="loguitoPaltaHeader" src="img/logopalta.png" alt="LogoPalta"></a>		
-<!--Menú principal-->
-			<ul class="menu__achicar">
-				<li class="wordspace">
-					<a class="menu__a menu__a--hover" href="recetas.html"><h2 class="menu__a--fontsize menu">Recetas</h2>
-					</a>
-				</li>
-				<li class="wordspace">
-					<a class="menu__a menu__a--hover" href="blog.html">
-						<h2 class="menu__a--fontsize">Blog</h2>
-					</a>
-				</li>
-				<li class="wordspace wordspace1">
-					<a class="menu__a menu__a--hover" href="preguntas-frecuentes.html">
-						<h2 class="menu__a--fontsize">Preguntas Frecuentes</h2>
-					</a>
-				</li>
-        <li class="wordspace"> 
-          <a class="menu__a menu__a--hover" href="contacto.html">
-            <h2 class="menu__a--fontsize">Contacto</h2>
-          </a>
-        </li>
-			</ul>
-		</nav>
+		<!--Navbar-->
+<nav class="navbar navbar-light light-blue lighten-4">
+
+  <!-- Navbar brand -->
+  <h1 class="navbar-brand navbar-brand__letra" href="#">Nutrición sin dietas</h1>
+
+  <!-- Collapse button -->
+  <div class="div__palta">
+  <img class="loguitoPaltaHeader navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+    aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation" src="img/logopalta.png" alt=""></div>
+
+  <!-- Collapsible content -->
+  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+
+    <!-- Links -->
+    <ul class="navbar-nav mr-auto osw">
+    	<li class="nav-item active">
+        <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="recetas.html">Recetas</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="blog.html">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="preguntas-frecuentes.html">Preguntas frecuentes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contacto.html">Contacto</a>
+      </li>
+    </ul>
+    <!-- Links -->
+
+  </div>
+  <!-- Collapsible content -->
+
+</nav>
+<!--/.Navbar-->
 	</header>
 <!--Título section y pequeña descripción-->
 		<section class="bloque1">
-			<div class="container-fluid container-fluid__color container-fluid__reglas">
+			<div class="container-fluid container-fluid__reglas">
 				<div class="row">
 						<div id="color1" class="bloque1__col-md-1--textalign bloque1__col-md-1--margin">
 							<h1 class="bloque1__col-md-1--padding">¿Qué es Nutrición sin dietas?</h1>
@@ -67,42 +80,48 @@
 						</div>
 						<div class="col-md-1"></div>
 <!--Imágenes en distintas col-->
-	<div class="container-flex">
+<div class="container-fluid">
 		<div class="row div__row--margin">
-				<div class="card marginLeft bg-dark text-white">
-  					<img src="img/recetas3.png" class="card-img" alt="...">
-  					<div class="card-img-overlay">
-   						<h5 class="card-title letracard">COME</h5>
- 			 		</div>
- 			 	</div>
-		<div class="marginLeft card bg-dark text-white">
-  			<img src="img/recetas5.png" class="card-img" alt="...">
-  				<div class="card-img-overlay">
-    				<h5 class="card-title letracard">SANO</h5>
- 		 		</div>
+				<div class="col-md-3 col-12">
+					<div class="container">
+  						<img src="img/recetas1.png" alt="Avatar" class="image" style="width:100%">
+  								<div class="middle">
+   									 <div class="text"><a class="text__a" href="recetas.html">Recetas</a></div>
+ 								 </div>
+					</div>
+				</div>
+				<div class="col-md-3 col-12">
+					<div class="container">
+  						<img src="img/recetas3.png" alt="Avatar" class="image" style="width:100%">
+ 							 <div class="middle">
+    							<div class="text"><a class="text__a" href="blog.html">Blog</a></div>
+  							</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-12">
+					<div class="container">
+  						<img src="img/recetas6.png" alt="Avatar" class="image" style="width:100%">
+  							<div class="middle">
+    							<div class="text"><a class="text__a" href="preguntas-frecuentes.html">Preguntas</a></div>
+ 							 </div>
+					</div>
+				</div>
+				<div class="col-md-3 col-12">
+					<div class="container">
+  						<img src="img/recetas5.png" alt="Avatar" class="image" style="width:100%">
+ 							 <div class="middle">
+    							<div class="text"><a class="text__a" href="contacto.html">Contacto</a></div>
+ 					 </div>
+				</div>
+			</div>
 		</div>
-		<div class="marginLeft card bg-dark text-white">
- 			 <img src="img/recetas6.png" class="card-img" alt="...">
-  				<div class="card-img-overlay">
-    				<h5 class="card-title letracard">VIVÍ</h5>
-  				</div>
-		</div>
-		<div class="marginLeft card  bg-dark text-white">
-  			<img src="img/recetas9.png" class="card-img" alt="...">
-  				<div class="card-img-overlay">
-   				 <h5 class="card-title letracard">MEJOR</h5>
-  				</div>
-  			</div>
-		</div>
-	</div>
-</div>
-<div class="container banner__habitos Centradito">
+<div class="container-fluid banner__habitos Centradito">
 	<h2 class="z"><img class="img__cita1" src="img/quote.png" alt=""><strong>Hábitos saludables</strong><img class="img__cita2" src="img/quote.png" alt=""><h2>
 		<h5>Pequeñas actitudes que tenemos asumidas como propias en nuestra vida cotidiana y que inciden positivamente en nuestro bienestar físico, mental y social<h5>
 </div>
 <div class="container-fluid">
 <div class="row">
-	<div class="col-md-6 paddingLeft">
+	<div class="col-md-6 col-12 paddingLeft">
 		<div class="card" style="width: 18rem; height: 27rem;">
   <img src="img/habito2.png" class="card-img-top" alt="...">
   <div class="card-body">
@@ -110,29 +129,29 @@
   </div>
 </div>
 	</div>
-		<div class="col-md-6 paddingLeft">
+		<div class="col-md-6 col-12 paddingLeft">
 		<div class="card" style="width: 18rem; height: 27rem;">
-  <img src="img/habito5.jfif" class="card-img-top" alt="...">
+  <img src="img/habito3.png" class="card-img-top" alt="...">
   <div class="card-body">
     <p class="card-text" style="font-family: 'Oswald', sans-serif; font-size: 1.2rem;">Te invito a pensar la alimentación de manera integral, disfrutar comiendo rico y saludable</p>
   </div>
 </div>
 	</div>
 </div>
-<br><br><br><br>
+<br><br>
 <div class="row">
-	<div class="col-md-6 paddingLeft">
+	<div class="col-md-6 col-12 paddingLeft">
 		<div class="card" style="width: 18rem; height: 27rem;">
-  <img src="img/habito3.png" class="card-img-top" alt="...">
+  <img src="img/habito9.png" class="card-img-top" alt="...">
   <div class="card-body">
     <p class="card-text" style="font-family: 'Oswald', sans-serif; font-size: 1.2rem;">No hagas dieta! Proponete pequeños cambios que te ayuden a mejorar tu alimentación, de a uno por vez!</p>
   </div>
 </div>
 	</div>
 
-	<div class="col-md-6 paddingLeft">
+	<div class="col-md-6 col-12 paddingLeft">
 		<div class="card" style="width: 18rem; height: 27rem;">
-  <img src="img/habito4.png" class="card-img-top" alt="...">
+  <img src="img/habito8.png" class="card-img-top" alt="...">
   <div class="card-body">
     <p class="card-text" style="font-family: 'Oswald', sans-serif; font-size: 1.2rem;">Cambia lo que tienes que cambiar. Vive ahora. Hazlo ahora. Mañana desearás haber empezado hoy.</p>
   </div>

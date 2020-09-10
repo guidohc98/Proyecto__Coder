@@ -1,12 +1,13 @@
 /*Variables*/
 $font-principal: 'Amatic SC', cursive;
 $font-texto: 'Oswald', sans-serif; 
-$altura: 150rem;
+$altura: 200rem;
 $backgroundMenu:#e6ee9c;
 $letraFooter: black;
-$backgroundSectionLila:#f6efcc;
+$backgroundSectionLila:#dbd9dc;
 $backgroundFooter:#e0e0e0;
 $backgroundCremita:#F0E573;
+$colorLetravioletita:#4b414a;
 
 /*------*/
 @import "semantico";
@@ -16,3 +17,5 @@ $backgroundCremita:#F0E573;
 @import "footer";
 @import "contactoforms";
 @import "blog";
+@import "menuhambur";
+@import "mediaquery";

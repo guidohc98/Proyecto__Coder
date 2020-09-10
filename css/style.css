@@ -7,14 +7,15 @@
   box-sizing: border-box; }
 
 .loguitoPaltaHeader {
-  width: 6rem;
+  width: 8rem;
   position: absolute;
-  margin-left: 2.2rem;
+  margin-left: 1rem;
   height: 6rem; }
 
 body {
   font-family: "Amatic SC", cursive;
-  font-size: 24px; }
+  font-size: 24px;
+  color: #4b414a; }
 
 ul li {
   display: inline-block;
@@ -33,18 +34,33 @@ header {
   background: #e6ee9c;
   width: 100%;
   position: fixed;
-  height: 6.2rem;
+  height: 6rem;
   z-index: 999; }
 
 section {
-  background: #f6efcc;
+  background: #dbd9dc;
   width: 100%;
-  height: 150rem; }
+  height: 200rem; }
 
 footer div img {
   width: 60px;
   height: 60px;
   padding: 10px; }
+
+.bloque1 {
+  height: 125rem; }
+
+.bloque2 {
+  height: 132rem; }
+
+.bloque3 {
+  height: 135rem; }
+
+.bloque4 {
+  height: 107rem; }
+
+.bloque5 {
+  height: 150rem; }
 
 .menu__a {
   text-decoration: none !important;
@@ -65,6 +81,10 @@ footer div img {
 
 .wordspace1 {
   word-spacing: 1rem; }
+
+.osw {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.2rem; }
 
 .bloque1__col-md-1--textalign {
   text-align: center; }
@@ -121,6 +141,10 @@ footer div img {
   transition: all .5s ease-in-out; }
 
 .row__ancho {
+  padding-top: 6rem;
+  width: 100%; }
+
+.row__padding--recetas {
   padding-top: 11rem;
   width: 100%; }
 
@@ -171,7 +195,7 @@ footer div img {
   padding-left: 12rem; }
 
 .card-body {
-  background: #e0e0e0; }
+  background: #f8f0fc; }
 
 .banner__habitos {
   height: 12rem;
@@ -195,15 +219,54 @@ footer div img {
 .block {
   display: block; }
 
+.container {
+  position: relative;
+  width: 100%; }
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden; }
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center; }
+
+.container:hover .image {
+  opacity: 0.5; }
+
+.container:hover .middle {
+  opacity: 1; }
+
+.text {
+  background-color: #84c06b;
+  border-radius: 10px;
+  color: white;
+  font-size: 2rem;
+  padding: 16px 32px; }
+
+.text__a {
+  text-decoration: none !important;
+  color: white !important; }
+
 /*Container 2 y 3 parte recetas*/
 .container-fluid__receta2--color {
   background: #F3CE84;
-  height: 50rem;
+  height: 40rem;
   width: 100%; }
 
 .container-fluid__receta3--color {
   background: #f0e573;
-  height: 50rem;
+  height: 42rem;
   width: 100%; }
 
 .Centradito {
@@ -271,6 +334,9 @@ footer div img {
   width: 4rem;
   height: 3rem;
   margin-left: 4rem; }
+
+.bloque4 {
+  height: 150rem; }
 
 .img__size {
   width: 18rem;
@@ -346,5 +412,85 @@ footer div img {
 
 .faq {
   text-decoration: none !important;
-  color: black !important;
-  text-transform: none !important; }
+  color: #fff !important;
+  text-transform: none !important;
+  font-family: "Oswald", sans-serif; }
+
+.card-header {
+  background: #625463; }
+
+.osw__color {
+  color: #625463; }
+
+.accordion > .card > .card-header {
+  border-radius: 3px; }
+
+.fa-1x {
+  font-size: 1.5rem; }
+
+.navbar-toggler.toggler-example {
+  cursor: pointer; }
+
+.dark-blue-text {
+  color: #0A38F5; }
+
+.dark-pink-text {
+  color: #AC003A; }
+
+.dark-amber-text {
+  color: #ff6f00; }
+
+.dark-teal-text {
+  color: #004d40; }
+
+.navbar-brand__letra {
+  font-size: 2.5rem;
+  font-family: "Amatic SC", cursive;
+  position: relative;
+  top: -10px; }
+
+.div__palta {
+  width: 6rem;
+  height: 6rem;
+  border-color: transparent;
+  margin-right: 4rem;
+  top: -10px;
+  position: relative;
+  border-color: transparent; }
+
+.navbar-toggler {
+  border: 0px; }
+
+.collapse {
+  background: white; }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .section__container--img {
+    max-width: 100%;
+    height: 15rem;
+    border: 0px;
+    border-radius: 0px; }
+  .row__col-md-8--lista {
+    padding-left: 2rem; }
+  .bloque1 {
+    height: 270rem; }
+  .bloque2 {
+    height: 215rem; }
+  .bloque3 {
+    height: 245rem; }
+  .container-fluid__receta2--color {
+    height: 65rem; }
+  .container-fluid__receta3--color {
+    height: 70rem; }
+  .container-fluid__reglas {
+    height: 82rem; }
+  .col-md-8__max-width {
+    max-width: 100%; }
+  .padding__img {
+    padding: 1rem; } }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */

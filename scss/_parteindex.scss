@@ -40,7 +40,7 @@
 .container-fluid__reglas{
 	margin: 0;
 	width: 100%;
-	height: $altura/3;
+	height: 50rem;
 }
 .section__container--img{
 	width: 32rem;
@@ -53,6 +53,10 @@
 	transition: all .5s ease-in-out;
 }
 .row__ancho{
+	padding-top: 6rem;
+	width: 100%;
+}
+.row__padding--recetas{
 	padding-top: 11rem;
 	width: 100%;
 }
@@ -103,7 +107,7 @@
 	padding-left: 12rem;
 }
 .card-body{
-	background: #e0e0e0;
+	background: #f8f0fc;
 }
 .banner__habitos{
 	height: 12rem;
@@ -126,4 +130,49 @@
 }
 .block{
 	display: block;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.5;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #84c06b;
+  border-radius: 10px;
+  color: white;
+  font-size: 2rem;
+  padding: 16px 32px;
+}
+.text__a{
+	text-decoration: none !important;
+	color: white !important;
 }

@@ -16,35 +16,48 @@
 </head>
 <body>
 	<header>
-    <nav>
-		<!--Logos del menú-->
-			<a href="index.html" title=""><img class="loguitoPaltaHeader" src="img/logopalta.png" alt=""></a>
-		<!--Menú principal-->
-			<ul class="menu__achicar">
-				<li class="wordspace">
-					<a class="menu__a menu__a--hover" href="recetas.html"><h2 class="menu__a--fontsize menu">Recetas</h2>
-					</a>
-				</li>
-				<li class="wordspace">
-					<a class="menu__a menu__a--hover" href="blog.html">
-						<h2 class="menu__a--fontsize">Blog</h2>
-					</a>
-				</li>
-				<li class="wordspace wordspace1">
-					<a class="menu__a menu__a--hover" href="preguntas-frecuentes.html">
-						<h2 class="menu__a--fontsize">Preguntas Frecuentes</h2>
-					</a>
-				</li>
-        <li class="wordspace"> 
-          <a class="menu__a menu__a--hover" href="contacto.html">
-            <h2 class="menu__a--fontsize">Contacto</h2>
-          </a>
-        </li>
-			</ul>
-		</nav>
+    <!--Navbar-->
+<nav class="navbar navbar-light light-blue lighten-4">
+
+  <!-- Navbar brand -->
+  <h1 class="navbar-brand navbar-brand__letra" href="#">Nutrición sin dietas</h1>
+
+  <!-- Collapse button -->
+  <div class="div__palta">
+  <img class="loguitoPaltaHeader navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+    aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation" src="img/logopalta.png" alt=""></div>
+
+  <!-- Collapsible content -->
+  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+
+    <!-- Links -->
+    <ul class="navbar-nav mr-auto osw">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="recetas.html">Recetas</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="blog.html">Blog</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="preguntas-frecuentes.html">Preguntas frecuentes<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contacto.html">Contacto</a>
+      </li>
+    </ul>
+    <!-- Links -->
+
+  </div>
+  <!-- Collapsible content -->
+
+</nav>
+<!--/.Navbar-->
 	</header>
-	<section class="bloque1">
-		<div class="container-fluid"  style="background-image: url(img/faq2.jpg)">
+	<section class="bloque4" style="background-image: url(img/faq2.jpg)">
+		<div class="container-fluid">
 			<div class="row row__ancho">
 				<div class="col-md-12">
 
@@ -65,7 +78,7 @@
               <a class="black faq faq--hover" data-toggle="collapse" data-parent="#accordionEx5" href="#collapse30" aria-expanded="true"
                 aria-controls="collapse30">
                 <i class="fas fa-cloud fa-2x p-3 mr-4 float-left black-text" aria-hidden="true"></i>
-                <h4 class="h4 text-uppercase white-text mb-0 py-3 mt-1">
+                <h4 class="white-text mb-0 py-3 mt-1">
                   ¿Todos los nutricionistas trabajan con planes alimentarios o dietas?
                 </h4>
               </a>
@@ -75,7 +88,7 @@
             <div id="collapse30" class="collapse show" role="tabpanel" aria-labelledby="heading30"
               data-parent="#accordionEx5">
               <div class="card-body rgba-black-light white-text z-depth-1">
-                <p class="p-md-4 mb-0 black1">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+                <p class="p-md-4 mb-0 black1 osw osw__color">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
                   terry richardson ad squid. 3 wolf moon officia aute,
                   non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch
                   3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
@@ -93,7 +106,7 @@
               <a  class="black faq faq--hover" data-toggle="collapse" data-parent="#accordionEx5" href="#collapse31" aria-expanded="true"
                 aria-controls="collapse31">
                 <i class="fas fa-comment-alt fa-2x p-3 mr-4 float-left black-text" aria-hidden="true"></i>
-                <h4 class="h4 text-uppercase white-text mb-0 py-3 mt-1">
+                <h4 class="h4 white-text mb-0 py-3 mt-1">
                   ¿Hacer una dieta estricta es privarse de las cosas que nos gustan?
                 </h4>
               </a>
@@ -103,7 +116,7 @@
             <div id="collapse31" class="collapse" role="tabpanel" aria-labelledby="heading31"
               data-parent="#accordionEx5">
               <div class="card-body rgba-black-light white-text z-depth-1">
-                <p class="p-md-4 mb-0">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+                <p class="p-md-4 mb-0 osw osw__color">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
                   terry richardson ad squid. 3 wolf moon officia aute,
                   non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch
                   3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
@@ -121,7 +134,7 @@
               <a class="black faq faq--hover" data-toggle="collapse" data-parent="#accordionEx5" href="#collapse32" aria-expanded="true"
                 aria-controls="collapse32">
                 <i class="fas fa-cogs fa-2x p-3 mr-4 float-left black-text" aria-hidden="true"></i>
-                <h4 class="h4 text-uppercase white-text mb-0 py-3 mt-1">
+                <h4 class="h4 white-text mb-0 py-3 mt-1">
                   Si no tengo tiempo para cocinar, ¿cómo voy a poder cuidarme con lo que como?
                 </h4>
               </a>
@@ -131,7 +144,7 @@
             <div id="collapse32" class="collapse" role="tabpanel" aria-labelledby="heading32"
               data-parent="#accordionEx5">
               <div class="card-body rgba-black-light white-text z-depth-1">
-                <p class="p-md-4 mb-0">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+                <p class="p-md-4 mb-0 osw osw__color">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
                   terry richardson ad squid. 3 wolf moon officia aute,
                   non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch
                   3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
@@ -149,7 +162,7 @@
               <a  class="black faq faq--hover" data-toggle="collapse" data-parent="#accordionEx5" href="#collapse33" aria-expanded="true"
                 aria-controls="collapse33">
                 <i class="fas fa-comment-alt fa-2x p-3 mr-4 float-left black-text" aria-hidden="true"></i>
-                <h4 class="h4 text-uppercase white-text mb-0 py-3 mt-1">
+                <h4 class="h4 white-text mb-0 py-3 mt-1">
                   ¿Hacer una dieta estricta es privarse de las cosas que nos gustan?
                 </h4>
               </a>
@@ -159,7 +172,7 @@
             <div id="collapse33" class="collapse" role="tabpanel" aria-labelledby="heading31"
               data-parent="#accordionEx5">
               <div class="card-body rgba-black-light white-text z-depth-1">
-                <p class="p-md-4 mb-0">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+                <p class="p-md-4 mb-0 osw osw__color">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
                   terry richardson ad squid. 3 wolf moon officia aute,
                   non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch
                   3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
@@ -175,7 +188,7 @@
               <a  class="black faq faq--hover" data-toggle="collapse" data-parent="#accordionEx5" href="#collapse34" aria-expanded="true"
                 aria-controls="collapse34">
                 <i class="fas fa-comment-alt fa-2x p-3 mr-4 float-left black-text" aria-hidden="true"></i>
-                <h4 class="h4 text-uppercase white-text mb-0 py-3 mt-1">
+                <h4 class="h4 white-text mb-0 py-3 mt-1">
                   ¿Hacer una dieta estricta es privarse de las cosas que nos gustan?
                 </h4>
               </a>
@@ -185,7 +198,7 @@
             <div id="collapse34" class="collapse" role="tabpanel" aria-labelledby="heading34"
               data-parent="#accordionEx5">
               <div class="card-body rgba-black-light white-text z-depth-1">
-                <p class="p-md-4 mb-0">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+                <p class="p-md-4 mb-0 osw osw__color">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
                   terry richardson ad squid. 3 wolf moon officia aute,
                   non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch
                   3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
@@ -201,7 +214,7 @@
               <a  class="black faq faq--hover" data-toggle="collapse" data-parent="#accordionEx5" href="#collapse35" aria-expanded="true"
                 aria-controls="collapse35">
                 <i class="fas fa-comment-alt fa-2x p-3 mr-4 float-left black-text" aria-hidden="true"></i>
-                <h4 class="h4 text-uppercase white-text mb-0 py-3 mt-1">
+                <h4 class="h4 white-text mb-0 py-3 mt-1">
                   ¿Hacer una dieta estricta es privarse de las cosas que nos gustan?
                 </h4>
               </a>
@@ -211,7 +224,7 @@
             <div id="collapse35" class="collapse" role="tabpanel" aria-labelledby="heading35"
               data-parent="#accordionEx5">
               <div class="card-body rgba-black-light white-text z-depth-1">
-                <p class="p-md-4 mb-0">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+                <p class="p-md-4 mb-0 osw osw__color">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
                   terry richardson ad squid. 3 wolf moon officia aute,
                   non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch
                   3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
@@ -228,7 +241,7 @@
               <a  class="black faq faq--hover" data-toggle="collapse" data-parent="#accordionEx5" href="#collapse36" aria-expanded="true"
                 aria-controls="collapse36">
                 <i class="fas fa-comment-alt fa-2x p-3 mr-4 float-left black-text" aria-hidden="true"></i>
-                <h4 class="h4 text-uppercase white-text mb-0 py-3 mt-1">
+                <h4 class="h4 white-text mb-0 py-3 mt-1">
                   ¿Hacer una dieta estricta es privarse de las cosas que nos gustan?
                 </h4>
               </a>
@@ -238,7 +251,7 @@
             <div id="collapse36" class="collapse" role="tabpanel" aria-labelledby="heading36"
               data-parent="#accordionEx5">
               <div class="card-body rgba-black-light white-text z-depth-1">
-                <p class="p-md-4 mb-0">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+                <p class="p-md-4 mb-0 osw osw__color">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
                   terry richardson ad squid. 3 wolf moon officia aute,
                   non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch
                   3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda

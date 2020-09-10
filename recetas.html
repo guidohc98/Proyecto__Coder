@@ -16,49 +16,62 @@
 </head>
 <body>
 	<header>
-		<nav>
-		<!--Logos del menú-->
-			<a href="index.html" title=""><img class="loguitoPaltaHeader" src="img/logopalta.png" alt=""></a>
-		<!--Menú principal-->
-			<ul class="menu__achicar">
-				<li class="wordspace">
-					<a class="menu__a menu__a--hover" href="recetas.html"><h2 class="menu__a--fontsize menu">Recetas</h2>
-					</a>
-				</li>
-				<li class="wordspace">
-					<a class="menu__a menu__a--hover" href="blog.html">
-						<h2 class="menu__a--fontsize">Blog</h2>
-					</a>
-				</li>
-				<li class="wordspace wordspace1">
-					<a class="menu__a menu__a--hover" href="preguntas-frecuentes.html">
-						<h2 class="menu__a--fontsize">Preguntas Frecuentes</h2>
-					</a>
-				</li>
-        <li class="wordspace"> 
-          <a class="menu__a menu__a--hover" href="contacto.html">
-            <h2 class="menu__a--fontsize">Contacto</h2>
-          </a>
-        </li>
-			</ul>
-		</nav>
+		<!--Navbar-->
+<nav class="navbar navbar-light light-blue lighten-4">
+
+  <!-- Navbar brand -->
+  <h1 class="navbar-brand navbar-brand__letra" href="#">Nutrición sin dietas</h1>
+
+  <!-- Collapse button -->
+  <div class="div__palta">
+  <img class="loguitoPaltaHeader navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+    aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation" src="img/logopalta.png" alt=""></div>
+
+  <!-- Collapsible content -->
+  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+
+    <!-- Links -->
+    <ul class="navbar-nav mr-auto osw">
+    	<li class="nav-item">
+        <a class="nav-link" href="index.html">Inicio</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="recetas.html">Recetas<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="blog.html">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="preguntas-frecuentes.html">Preguntas frecuentes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contacto.html">Contacto</a>
+      </li>
+    </ul>
+    <!-- Links -->
+
+  </div>
+  <!-- Collapsible content -->
+
+</nav>
+<!--/.Navbar-->
 	</header>
 <!--Img recetas-->
-	<section class="bloque1">		
+	<section class="bloque2">		
 			<div class="container-fluid container-fluid__color container-fluid__reglas">
-				<div class="row row__ancho">
-					<div class="col-md-4">
+				<div class="row row__padding--recetas">
+					<div class="col-md-4 col-12 padding__img">
 						<img class="section__container--img" src="img/recetas1.png" alt="Receta 1">
 					</div>
 <!--Título y descripción Receta-->
-					<div class="col-md-8 row__col-md-8--lista">
+					<div class="col-md-8 col-12 row__col-md-8--lista">
 							<h3 class="row__col-md-8--h4 Centradito">GALLETITAS DE AVENA</h3>
 						<p class="row__col-md-8--ul Centradito">Estas galles las hicimos ayer para los mates de la tarde. Además de fáciles son riquísimas y pueden aprovechar para hacerlas con l@s más peques!</p>
 						<h4 class="row__col-md-8--h4 Centradito">Necesitan</h4>
 <!--Lista de la Receta-->
 <div class="container">
 	<div class="row">
-		<div class="col-md-6">
+		<div class="col-md-6 col-6">
 			<ul class="row__col-md-8--ul">
 							<li class="block"> 1 taza de avena en hojuelas</li>
 							<li class="block"> 1 taza de harina a elección</li>
@@ -67,7 +80,7 @@
 							<li class="block"> 1 taza de avena en hojuelas</li>
 							<li class="block"> 1 taza de harina a elección</li>
 		</div>
-		<div class="col-md-6">
+		<div class="col-md-6 col-6">
 			<ul class="row__col-md-8--ul">
 							<li class="block"> 1 pocillo de aceite (6 cdas aprox)</li>
 							<li class="block"> 2 cdas soperas de agua</li>
@@ -92,15 +105,19 @@
 			</div>
 	<div class="container-fluid container-fluid__receta2--color">
 		<div class="row row__padding">
+<!--Foto de la Receta-->
+			<div class="col-md-4 col-12 div__col-md-4--padding padding__img">
+				<img class="section__container--img" src="img/recetas4.png" alt="">
+			</div>
 <!--Título y descripción Receta-->
-			<div class="col-md-8 col-md-8__max-width col-md-8__paddingL">
+			<div class="col-md-8 col-12 col-md-8__max-width col-md-8__paddingL">
 				<h3 class="row__col-md-8--h4 Centradito">ROLLITOS DE MEMBRILLO</h3>
 					<p class="row__col-md-8--ul Centradito">Ame la textura, consistencia, sabor, todo. Son muy ricos y suaves</p>
 						<h4 class="row__col-md-8--h4 Centradito">Necesitan</h4>
 <!--Lista de la Receta-->
 <div class="container">
 	<div class="row">
-		<div class="col-md-6">
+		<div class="col-md-6 col-6">
 			<ul class="row__col-md-8--ul" id="block">
 							<li class="block">2 tazas de harina</li>
 							<li class="block">Azúcar (100g)</li>
@@ -109,7 +126,7 @@
 							<li class="block">2 cditas de polvo para hornear</li>
 						</ul>
 		</div>
-		<div class="col-md-6">
+		<div class="col-md-6 col-6">
 			<ul class="row__col-md-8--ul">
 			<li class="block">Ralladura de 1 limón</li>
 							<li class="block">1 cdita de esencia de vainilla</li>
@@ -128,27 +145,23 @@
 							<li>Por último cortar en rodajas del tamaño que quieran y colocar sobre una placa aceitada. Cocinar 15 min aprox, hasta que estén doraditos!!</li>
 						</ol>
 			</div>
-<!--Foto de la Receta-->
-			<div class="col-md-4 div__col-md-4--padding">
-				<img class="section__container--img" src="img/recetas4.png" alt="">
-			</div>
 		</div>
 	</div>
-	<div class="container-fluid container-fluid__receta3--color container-fluid__color container-fluid__reglas">
+	<div class="container-fluid container-fluid__receta3--color container-fluid__color">
 		<div class="row row__padding">
 <!--Foto de la Receta-->
-			<div class="col-md-4">
+			<div class="col-md-4 col-12 padding__img">
 				<img class="section__container--img" src="img/recetas2.jpg" alt="">
 			</div>
 <!--Título y descripción Receta-->
-			<div class="col-md-8 row__col-md-8--lista">
+			<div class="col-md-8 col-12 row__col-md-8--lista">
 				<h3 class="row__col-md-8--h4 Centradito">CHIPÁ</h3>
 					<p class="row__col-md-8--ul Centradito">Hola, cómo andan? Ayer salieron estos ricos #chipas en casa. Vi varias recetas y esta me pareció bastante práctica para compartirles, quedaron tremeeeeendos!</p>
 						<h4 class="row__col-md-8--h4 Centradito">Necesitan</h4>
 <!--Lista de la Receta-->
 <div class="container">
 	<div class="row">
-		<div class="col-md-6">
+		<div class="col-md-6 col-6">
 			<ul class="row__col-md-8--ul">
 							<li class="block">250 gr de fecula de mandioca</li>
 							<li class="block">150 gr de queso.</li>
@@ -156,7 +169,7 @@
 							<li class="block">6 cdas de leche descremada</li>
 					</ul>
 		</div>
-		<div class="col-md-6">
+		<div class="col-md-6 col-6">
 			<ul class="row__col-md-8--ul">
 			<li class="block">4 cdas de agua</li>
 							<li class="block">2 cdas de aceite</li>
