@@ -65,7 +65,7 @@
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 812px) {
+@media only screen and (min-width: 600px) {
 	.section__container--img{
 		max-width: 100%;
 		height: 15rem;
@@ -125,3 +125,119 @@
 		height: 50rem;
 	}
 }
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.section__container--img{
+		max-width: 100%;
+		height: 15rem;
+	}
+	.row__col-md-8--lista{
+		padding-left: 2rem;
+	}
+	.menu_desplegable{
+		width: 25%;
+	}
+	.image{
+		margin-top: 2rem;
+	}
+	.col-md-5{
+		margin-top: 2rem;
+	}
+	.img__cita1{
+		display: none;
+	}
+	.img__cita2{
+		display: none;
+	}
+	.bloque1{
+		height: 300rem;
+	}	
+	.bloque2{
+		height: 180rem;
+	}
+	.bloque3{
+		height: 220rem;
+	}
+	.bloque4{
+		height: 120rem;
+	}
+	.bloque5{
+		height: 170rem;
+	}
+	.fondoImagen2{
+		height: 50rem;
+	}
+	.containerfluid__banner--letra{
+		font-size: 1.5rem;
+	}
+	.container-fluid__receta2--color{
+		height: 65rem;
+	}
+	.container-fluid__receta3--color{
+		height: 70rem;
+	}
+	.container-fluid__reglas{
+		height: 82rem;
+	}
+	.col-md-8__max-width{
+		max-width: 100%;
+	}
+	.padding__img{
+		padding: 1rem;
+	}
+	.w-100{
+		height: 50rem;
+	}
+	.carousel-inner{
+		height: 50rem;
+	}
+} 
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+.img__cita1{
+		display: inline;	
+}
+.img__cita2{
+		display: inline;
+	}
+.menu_desplegable{
+	width: 15%;
+}
+.bloque1{
+	height: 125rem;
+}
+.bloque2{
+	height: 132rem;
+}
+.bloque3{
+	height: 170rem;
+}
+.bloque4{
+	height: 80rem;
+}
+.bloque5{
+	height: 140rem;
+}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+.menu_desplegable{
+	width: 15%;
+}
+.bloque1{
+	height: 125rem;
+}
+.bloque2{
+	height: 140rem;
+}
+.bloque3{
+	height: 170rem;
+}
+.bloque4{
+	height: 80rem;
+}
+.bloque5{
+	height: 160rem;
+}
+} 
