@@ -19,11 +19,10 @@ ul li{
 	letter-spacing: 2px;
 }
 footer{
-	background-color:$backgroundFooter;
+	background-color: #625463;
 	width: 100%;
-	color: $letraFooter;
+	color: #fff;
 	text-align: center;
-	word-spacing: 20px;
 	font-size: 30px;
 	padding: 5px;
 }
@@ -31,7 +30,7 @@ header{
 	background: $backgroundMenu;
 	width: 100%;
 	position: fixed;
-	height: 6rem;
+	height: 4.5rem;
 	z-index: 999;
 }
 section{
@@ -51,11 +50,35 @@ footer div img{
 	height: 132rem;
 }
 .bloque3{
-	height: 135rem;
+	height: 170rem;
 }
 .bloque4{
-	height: 107rem;
+	height: 80rem;
 }
 .bloque5{
-	height: 150rem;
+	height: 140rem;
+}
+.card-text{
+	font-size: 1rem;
+}
+.transparent{
+	background: transparent;
+}
+.menu_desplegable{
+	width: 15%;
+	background:#c5e080;
+	border-radius: 20px;
+	text-align: center;
+}
+.nav-item:nth-child(1){
+	border-bottom: 1px solid white;
+}
+.nav-item:nth-child(2){
+	border-bottom: 1px solid white;
+}
+.nav-item:nth-child(3){
+	border-bottom: 1px solid white;
+}
+.nav-item:nth-child(4){
+	border-bottom: 1px solid white;
 }

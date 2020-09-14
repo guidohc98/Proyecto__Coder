@@ -19,8 +19,13 @@
 /*Fondo del forms con opacidad*/
 .fondoImagen{
 	background-image: url(../img/faq1.jpg);
-	padding-top: 18rem;
+	padding-top: 10rem;
 	position: relative;
+	height: auto;
+}
+.fondoImagen2{
+	background-image: url(../img/teletrabajo4.jpg); 
+	height: 100vh;
 }
 #fondo:before {
 	content:'';
@@ -37,13 +42,12 @@
 .img__palta1{
 	width: 4rem;
 	height: 3rem;
-	margin-right: 4.5rem;
+	margin-right: 2rem;
 }
 .img__palta2{
 	width: 4rem;
 	height: 3rem;
-	margin-left: 4rem;
 }
-.bloque4{
-	height: 150rem;
+.marginT{
+	margin-top: 2rem;
 }

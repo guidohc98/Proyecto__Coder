@@ -19,9 +19,9 @@
 	padding: 1rem;
 }
 #color1{
-	background: rgba(170, 118, 80, 0.3);
+	background: #635564;
 	border-radius: 0.6rem;
-	margin-left: 31rem;
+	color: white;
 }
 .container-flex{
 	display: flex;
@@ -38,15 +38,12 @@
 	background: $backgroundCremita;
 }
 .container-fluid__reglas{
-	margin: 0;
 	width: 100%;
 	height: 50rem;
 }
 .section__container--img{
-	width: 32rem;
-	height: 36rem;
-	border: 0.2rem solid black;
-	border-radius: 2rem;
+	width: 100%;
+	height: auto;
 }
 .section__container--img:hover{
 	filter: opacity(.7);
@@ -81,7 +78,7 @@
 }
 .row__col-md-8--ul{
 	font-family: $font-texto;
-	font-size: 0.9rem;
+	font-size: 1rem;
 }
 .row__col-md-8--li{
 	line-height: 1.8rem;
@@ -92,6 +89,12 @@
 .card-img{
 	width: 19rem;
 	height: 21rem;
+}
+.card-size{
+	width: 19rem;
+	height: 27rem;
+	font-family: $font-texto;
+	font-size: 1.2rem;
 }
 .letracard{
 	font-family: 'Oswald', sans-serif;
@@ -157,11 +160,11 @@
   text-align: center;
 }
 
-.container:hover .image {
+.container__efecto:hover .image {
   opacity: 0.5;
 }
 
-.container:hover .middle {
+.container__efecto:hover .middle {
   opacity: 1;
 }
 

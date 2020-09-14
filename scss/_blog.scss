@@ -39,18 +39,10 @@
 }
 .containerfluid__banner{
 	margin: 0; 
-	background: #DBB985; 
-	height: 8rem;
-}
-.img__cards{
-	border-radius: 4px;
-	border: solid black;
-}
-.containerfluid__banner--letra{
-	color: white;
-	padding: 2rem;
-	padding-left: 0;
-	letter-spacing: 0.2rem;
+	background: #635564; 
+	height: 6rem;
+	color: #fff;
+	padding: 0.8rem;
 }
 .containerfluid__display{
 	display: inline;
@@ -63,7 +55,6 @@
 .img__limon2{
 	width: 5rem;
 	height: 2rem;
-	margin-left: 4rem;
 }
 
 .p__letra{
@@ -85,4 +76,13 @@
 }
 .accordion > .card > .card-header{
 	border-radius: 3px;
+}
+.carousel-item{
+	height: 100vh;
+}
+.lista_blog{
+	 list-style: circle; 
+	 font-family: 'Oswald', sans-serif;
+	 padding-left: 7rem;
+	 padding-top: 3rem;
 }

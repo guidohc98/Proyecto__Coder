@@ -29,10 +29,10 @@
     aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation" src="img/logopalta.png" alt=""></div>
 
   <!-- Collapsible content -->
-  <div style="width: 20%;" class="collapse navbar-collapse" id="navbarSupportedContent1">
+  <div class="collapse transparent navbar-collapse" id="navbarSupportedContent1">
 
     <!-- Links -->
-    <ul class="navbar-nav mr-auto osw">
+    <ul class="navbar-nav mr-auto osw menu_desplegable">
     	<li class="nav-item">
         <a class="nav-link" href="index.html">Inicio</a>
       </li>
@@ -65,22 +65,22 @@
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
   </ol>
   <div class="carousel-inner">
-    <div class="carousel-item active" style="height: 100vh;">
-      <img class="d-block w-100" src="img/carru1.jpg" alt="First slide">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="img/carru1-min.jpg" alt="First slide">
       <div class="carousel-caption d-none d-md-block overlay__carousel">
     <h2 class="fontOswald">Ordenate. Planificá. Pensá cada comida.</h2>
     <p class="fontOswald">Vas a lograr una alimentación más y sana y generar más consciencia sobre lo que comés!</p>
   </div>
     </div>
-    <div class="carousel-item" style="height: 100vh;">
-      <img class="d-block w-100" src="img/carru2.jpg" alt="Second slide">
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/carru2-min.jpg" alt="Second slide">
       <div class="carousel-caption d-none d-md-block overlay__carousel">
     <h2 class="fontOswald">Hacé actividad física. Mantené tu cuerpo en movimiento.</h2>
     <p class="fontOswald">Ayuda a mantenerte alerta y de buen ánimo. Permite descansar mejor. Mejora el funcionamiento de nuestros músculos.</p>
   </div>
     </div>
-    <div class="carousel-item" style="height: 100vh;">
-      <img class="d-block w-100" src="img/carru4.jpg" alt="Third slide">
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/carru4-min.jpg" alt="Third slide">
       <div class="carousel-caption d-none d-md-block overlay__carousel">
     <h2 class="fontOswald">Dedicá tiempo a cocinar con los más chicxs.</h2>
     <p class="fontOswald">Aprendan. Diviertanse. Jueguen. Es la mejor forma de enseñarles a comer rico y saludable.</p>
@@ -88,68 +88,53 @@
     </div>
   </div>
 </div>
-<div class="container-fluid containerfluid__banner">
-	<div class="row align-items-center">
-		<div class="col-md-12">
-			<h2 class="Centradito containerfluid__banner--letra fontOswald"><img class="img__limon1" src="img/limon.png" alt="">MÁS tips para hacer tu vida MÁS saludable
-<img class="img__limon2" src="img/limon.png" alt=""></h2>
-		</div>
 <div class="container-fluid container-fluid__reglas">
 		<div class="row row__padding row__width">
 			<div class="col-md-4">
-				<img class="img__size img__cards" src="img/blog1.jpg" alt="">
+				<img class="img__size rounded" src="img/blog1-min.jpg" alt="">
 			</div>				
 			<div class="col-md-8">
 				<h2 class="ws">Sanitización de verduras</h2>
-				<p class="p__letra">sum dolor, sit amet consectetur adipisicing, elit. Cupiditate veniam nulla eaque nemo, mollitia ipsa, rem quis sit itaque similique esse doloribus. Impedit quisquam, magni facere voluptates exercitationem asperiores maxime.<span class="dots">...</span><span class="more">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sunt aut explicabo error doloremque aliquam sint dolores, illo, aperiam, dolorum a ex? Hic provident beatae perspiciatis, recusandae dolore fuga voluptates.</span></p>
-				<div class="btn btn__none btn-primary btn__Vermas--hover btn__Primary--hover fontOswald myBtn" onclick="myFunction()">Ver más</div>
+				<p class="p__letra">En la preparación de vegetales, especialmente aquellos que se consumen crudos, el lavado es un procedimiento muy importante ya que elimina la suciedad y/o químicos que están adheridos al alimento.<span id="dots">...</span><span id="more"> Pero además del lavado, es necesario desinfectarlos perfectamente para eliminar los microbios invisibles que puedan quedar aún después del lavado.</span></p>
+				<div class="btn btn__none btn-primary btn__Vermas--hover btn__Primary--hover fontOswald" id="myBtn" onclick="myFunction()">Ver más</div>
 			</div>
 			<div class="col-md-4 marginTop">
-				<img class="img__size img__cards" src="img/blog2.jpg" alt="">
+				<img class="img__size rounded" src="img/blog2-min.jpg" alt="">
 			</div>
 			<div class="col-md-8 marginTop">
 				<h2 class="ws">Mitos del ayuno</h2>
-				<p class="p__letra">Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Cupiditate veniam nulla eaque nemo, mollitia ipsa, rem quis sit itaque similique esse doloribus. Impedit quisquam, magni facere voluptates exercitationem asperiores maxime.<span class="dots">...</span><span class="more">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sunt aut explicabo error doloremque aliquam sint dolores, illo, aperiam, dolorum a ex? Hic provident beatae perspiciatis, recusandae dolore fuga voluptates.</span></p>
-				<div class="btn btn__none btn-primary btn__Vermas--hover btn__Primary--hover fontOswald" onclick="myFunction()" class="myBtn">Ver más</div>
+				<p class="p__letra">El ayuno intermitente se ha convertido rápidamente en una tendencia dietética digna de ser analizada. Fue una de las dietas más buscadas en Google y en la Argentina durante el 2019. Pero, ¿en qué consiste, y cuáles son los principales mitos detrás de ella?<span id="dots1">...</span><span id="more1">En sí, es una dieta que alterna entre los tiempos de ayuno y alimentación. A diferencia de otras filosofías de alimentación, el ayuno intermitente no prescribe qué comer; más bien, se centra en cuándo comer… y cuando no. Para la mayoría de los que adoptan este plan de alimentación, el objetivo es reducir la cantidad de calorías consumidas para perder peso.</span></p>
+				<div class="btn btn__none btn-primary btn__Vermas--hover btn__Primary--hover fontOswald" onclick="myFunction1()" id="myBtn1">Ver más</div>
 			</div> 
 			<div class="col-md-4 marginTop">
-				<img class="img__size img__cards" src="img/blog3.jpg" alt="">
+				<img class="img__size rounded" src="img/blog3-min.jpg" alt="">
 			</div>
 			<div class="col-md-8 marginTop">
 				<h2 class="ws">Aprendé a armar tu plato!</h2>
-				<p class="p__letra">Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Cupiditate veniam nulla eaque nemo, mollitia ipsa, rem quis sit itaque similique esse doloribus. Impedit quisquam, magni facere voluptates exercitationem asperiores maxime.<span class="dots">...</span><span class="more">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sunt aut explicabo error doloremque aliquam sint dolores, illo, aperiam, dolorum a ex? Hic provident beatae perspiciatis, recusandae dolore fuga voluptates.</span></p>
-				<div class="btn btn__none btn-primary btn__Vermas--hover btn__Primary--hover fontOswald" onclick="myFunction()" class="myBtn">Ver más</div>
+				<p class="p__letra">Cuando nos proponemos el objetivo de comer bien, de forma variada y saludable, es habitual que nos asalten las dudas. En muchas ocasiones, creemos que la teoría la tenemos clara, pero la práctica nos falla estrepitosamente. Las prisas del día a día no ayudan y acabamos por comer casi cualquier cosa que encontramos en la despensa o en la nevera.<span id="dots2">...</span><span id="more2"> Sin embargo, alimentarse bien y, con ello, ganar en salud, es más fácil de lo que podemos pensar, pues basta con mirar nuestro plato, pero no uno cualquiera, sino el que representa al conocido como método del plato, una herramienta muy visual y sencilla que permite al comensal aunar en un único recipiente todos los nutrientes que necesita en sus comidas principales y, lo que es más importante, en las proporciones justas.</span></p>
+				<div class="btn btn__none btn-primary btn__Vermas--hover btn__Primary--hover fontOswald" onclick="myFunction2()" id="myBtn2">Ver más</div>
 			</div> 
 			<div class="col-md-4 marginTop">
-				<img class="img__size img__cards" src="img/blog4.jpg" alt="">
+				<img class="img__size rounded" src="img/blog4-min.jpg" alt="">
 			</div>
 			<div class="col-md-8 marginTop">
 				<h2 class="ws">Mejor casero, pero pedir tampoco está mal</h2>
-				<p class="p__letra">Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Cupiditate veniam nulla eaque nemo, mollitia ipsa, rem quis sit itaque similique esse doloribus. Impedit quisquam, magni facere voluptates exercitationem asperiores maxime.<span class="dots">...</span><span class="more">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sunt aut explicabo error doloremque aliquam sint dolores, illo, aperiam, dolorum a ex? Hic provident beatae perspiciatis, recusandae dolore fuga voluptates.</span></p>
-				<div class="btn btn__none btn-primary btn__Vermas--hover btn__Primary--hover fontOswald" onclick="myFunction()" class="myBtn4">Ver más</div>
+				<p class="p__letra">Nuestra sociedad, cada día con más prisas para todo, también ha integrado la comida rápida en los hábitos alimentarios de la población. La comida rápida, importada de Norteamérica, donde es ya un hábito cotidiano, se implanta en nuestra sociedad y gana cada vez más adeptos, especialmente entre la juventud.<span id="dots3">...</span><span id="more3">Aunque existen muchos detractores de este tipo de alimentación por causas dietéticas y de otros tipos, no podemos decir que se trate de algo estrictamente desaconsejable, aunque sí lo es cuando pasa a ser un hábito diario.</span></p>
+				<div class="btn btn__none btn-primary btn__Vermas--hover btn__Primary--hover fontOswald" onclick="myFunction3()" id="myBtn3">Ver más</div>
 			</div> 
 			<div class="col-md-4 marginTop">
-				<img class="img__size img__cards" src="img/blog5.jpg" alt="">
+				<img class="img__size rounded" src="img/blog5-min.jpg" alt="">
 			</div>
 			<div class="col-md-8 marginTop">
 				<h2 class="ws">Nutrición deportiva</h2>
-				<p class="p__letra">Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Cupiditate veniam nulla eaque nemo, mollitia ipsa, rem quis sit itaque similique esse doloribus. Impedit quisquam, magni facere voluptates exercitationem asperiores maxime.<span class="dots">...</span><span class="more">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sunt aut explicabo error doloremque aliquam sint dolores, illo, aperiam, dolorum a ex? Hic provident beatae perspiciatis, recusandae dolore fuga voluptates.</span></p>
-				<div class="btn btn__none btn-primary btn__Vermas--hover btn__Primary--hover fontOswald" onclick="myFunction()" class="myBtn">Ver más</div>
+				<p class="p__letra">La nutrición deportiva es una rama especializada de la nutrición humana aplicada a las personas que practican deportes intensos, como pueden ser la halterofilia, el culturismo o fitness; aquellos que requieren esfuerzos prolongados en el tiempo, que se denominan deportes de resistencia, como por ejemplo, maratón, ciclismo o triatlón. Dependiendo de los objetivos finales del deporte realizado y de sus entrenamientos, la nutrición hace hincapié en unos u otros alimentos.<span id="dots4">...</span><span id="more4"> Por ejemplo, en el culturismo son más importantes los alimentos proteicos que favorezcan la hipertrofia muscular (incremento de la masa muscular). En cambio, en los deportes aeróbicos, como puede ser el ciclismo, son importantes aquellos alimentos que favorecen el esfuerzo energético prolongado, como la ingesta de alimento con glúcidos. Otro deporte que requiere de la nutrición deportiva es el rugby, por ser un deporte de contacto y desgaste físico. Aquel que juega al rugby y tiene desgaste físico más de tres veces a la semana debe tomar más de tres litros de agua por día para tener ventajas en el deporte. </span></p>
+				<div class="btn btn__none btn-primary btn__Vermas--hover btn__Primary--hover fontOswald" onclick="myFunction4()" id="myBtn4">Ver más</div>
 			</div> 
 		</div>
 	</div>
-<!--Form
-<div class="container-fluid" style="margin-top: 40rem;">
-	<div class="row">
-		<div class="col-md-12">
-			<img class="img__size2" src="img/faq1.jpg" alt="">
-		</div>
-	</div>
-</div>
--->
-	</section>
+</section>
 <!--Redes sociales-->
-	<footer id="foter">
+	<footer>
 		<div class="container-fluid">
 			<div class="row align-items-center">
 				<div class="col-md-3">
@@ -186,16 +171,84 @@
 	<script>
 		function myFunction() {
 
-  var dots = document.getElementsByClassName('dots')[0];
-  var moreText = document.getElementsByClassName('more')[0];
-  var btnText = document.getElementsByClassName('myBtn')[0];
+  var dots = document.getElementById('dots');
+  var moreText = document.getElementById('more');
+  var btnText = document.getElementById('myBtn');
 	  	if (dots.style.display === 'none') {
 	    dots.style.display = "inline";
 	    btnText.innerHTML = "Ver más";
 	    moreText.style.display = "none";
 	  } else {
 	    dots.style.display = "none";
-	    btnText.innerHTML = "Leé la nota!";
+	    btnText.innerHTML = "Ver menos";
+	    moreText.style.display = "inline";
+  		}	
+}
+	</script>
+	<script>
+		function myFunction1() {
+
+  var dots = document.getElementById('dots1');
+  var moreText = document.getElementById('more1');
+  var btnText = document.getElementById('myBtn1');
+	  	if (dots.style.display === 'none') {
+	    dots.style.display = "inline";
+	    btnText.innerHTML = "Ver más";
+	    moreText.style.display = "none";
+	  } else {
+	    dots.style.display = "none";
+	    btnText.innerHTML = "Ver menos";
+	    moreText.style.display = "inline";
+  		}	
+}
+	</script>
+	<script>
+		function myFunction2() {
+
+  var dots = document.getElementById('dots2');
+  var moreText = document.getElementById('more2');
+  var btnText = document.getElementById('myBtn2');
+	  	if (dots.style.display === 'none') {
+	    dots.style.display = "inline";
+	    btnText.innerHTML = "Ver más";
+	    moreText.style.display = "none";
+	  } else {
+	    dots.style.display = "none";
+	    btnText.innerHTML = "Ver menos";
+	    moreText.style.display = "inline";
+  		}	
+}
+	</script>
+	<script>
+		function myFunction3() {
+
+  var dots = document.getElementById('dots3');
+  var moreText = document.getElementById('more3');
+  var btnText = document.getElementById('myBtn3');
+	  	if (dots.style.display === 'none') {
+	    dots.style.display = "inline";
+	    btnText.innerHTML = "Ver más";
+	    moreText.style.display = "none";
+	  } else {
+	    dots.style.display = "none";
+	    btnText.innerHTML = "Ver menos";
+	    moreText.style.display = "inline";
+  		}	
+}
+	</script>
+	<script>
+		function myFunction4() {
+
+  var dots = document.getElementById('dots4');
+  var moreText = document.getElementById('more4');
+  var btnText = document.getElementById('myBtn4');
+	  	if (dots.style.display === 'none') {
+	    dots.style.display = "inline";
+	    btnText.innerHTML = "Ver más";
+	    moreText.style.display = "none";
+	  } else {
+	    dots.style.display = "none";
+	    btnText.innerHTML = "Ver menos";
 	    moreText.style.display = "inline";
   		}	
 }
